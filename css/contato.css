@@ -1,0 +1,42 @@
+/* Estilo para o corpo do site*/
+body{
+    background-image: url(../imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-color: #d2d2c1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+/*Estilo para o menu de navegação*/
+div#menu{
+    text-transform: uppercase;
+    list-style: none;
+}
+
+/*Estilo para linhas do menu*/
+div#menu li{
+    display:inline-block;
+    font-weight: 600;
+    color: rgb(37, 37, 104);
+   transition:background-color 1s; /*Velocidade ao clarear a linha da lista, quando passamos o mouse*/
+}
+
+/*Muda a cor do fundo ao passar o mouse no menu*/
+div#menu li:hover{
+    background-color: #ecece2;
+}
+/*Contato*/
+div#cont{
+    text-align: justify;
+    width: 63.5%;
+    background-color: #ecece2;
+    padding: 10px;
+    }
+div#direitos h4{
+    text-align: center;
+    width: 63.5%;
+}
+.imag{
+    border: solid 10px;
+    color: #d2d2c1;
+}
+
